@@ -1,0 +1,32 @@
+{
+  "name": "rating-system-shogi",
+  "version": "0.1.0",
+  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "handlebars": "^4.7.7",
+    "@fastify/formbody": "^7.3.0",
+    "@fastify/static": "^6.5.0",
+    "@fastify/view": "^7.1.2",
+    "scloudjs": "^1.2.2",
+    "ws": "^8.11.0",
+    "node-fetch": "^3.3.0",
+    "shortid": "^2.2.16"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/cloud-stats"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ],
+  "type": "module"
+}
